@@ -1,0 +1,27 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #616368;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 16px;
+}
+body h1, h2, h3, h4, h5{
+    color: #242f51 !important;
+    line-height: 46px;
+    font-weight: 800;
+}
+@import "normolize";
+@import "mixins";
+@import "presentation-anim";
+@import "container";
+@import "navbar";
+@import "homepage";
+@import "companies";
+@import "apps";
+@import "features";
+@import "mobile-app";
+@import "ultimate";
+@import "payment";
+@import "product";
+@import "questions";
+@import "download";

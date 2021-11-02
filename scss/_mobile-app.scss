@@ -1,0 +1,16 @@
+.mobile-app__corouserl{
+    height: 450px;
+    z-index: -1;
+
+}
+.mobile-app__animation{
+    z-index: -1;
+}
+.app{
+    transition: transform 1.5s ease, opacity 0.001s !important;
+}
+.owl-dot{
+    background-color: #007bff;
+    border-radius: 5px;
+    outline: none;
+}

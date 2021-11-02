@@ -1,0 +1,127 @@
+.home-page{
+    z-index: 0;
+    height: 600px;
+    background-image: url(img/Home_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top 100%;
+    position: relative;
+}
+.hp-anim{
+    position: absolute;
+    width: 18px;
+    height: 19px;
+    border: 4px solid rgba(255, 0, 0, 0.3);
+    border-radius: 50%;
+    animation-name: hp-anim;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+
+}
+.hp-top-left{
+    border: 4px solid rgba(0, 0, 0, 0.3) !important;
+    left: 8%;
+}
+.hp-top-right{
+    right: 20%;
+}
+.hp-bottom-left{
+    top: 90%;
+    left: 20%;
+}
+.hp-bottom-right{
+    top: 90%;
+    right: 8%;
+}
+.hp-center{
+    top: 10%;
+    left: 20%;
+    border: 3px solid rgba(0, 0, 0, 0.3) !important;
+    border-radius: 5%;
+    transform: rotateZ(45deg) !important;
+    width: 15px;
+    height: 15px;
+}
+@keyframes hp-anim{
+    0%{
+        transform: translateX(0) rotateZ(45deg);
+    }
+    25%{
+        transform: translateX(-15px) rotateZ(45deg);
+    }
+    50%{
+        transform: translateX(15px) rotateZ(45deg);
+    }
+    100%{
+        transform: translateX(0px) rotateZ(45deg);
+    }
+}
+.home-page-row{
+    height: 100%;
+}
+.homefirst_txt img {
+    background: #feaa25;
+    padding: 10px;
+    border-radius: 20px;
+}
+.homefirst_txt {
+    background: #e2eaed;
+    border-radius: 20px;
+    overflow: hidden;
+}    
+.align-items-center {
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+.homefirst_txt{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+.hp__left{
+    h2{
+    font-size: 60px;
+    line-height: 75px;
+    color: #242f51;
+    margin-top: 10px;
+    font-weight: 200;
+    }
+    .mt-2{
+      font-size: 20px;
+    }
+    .hp-btn{
+        margin-left: 0px !important;
+        z-index: 2;
+    }
+}
+.hp__right{
+    position: relative;
+    height: 100%;
+    img{
+        position: absolute;
+        left: 0;
+        animation-name: hp__mobile;
+        animation-iteration-count: infinite;
+        animation-duration: 6s;
+        animation-timing-function: linear;
+    }
+}
+@keyframes hp__mobile{
+    0%{
+        transform: translateY(0px);
+    }
+    25%{
+        transform: translateY(-5px);
+    }
+    50%{
+        transform: translateY(5px);
+    }
+    75%{
+        transform: translateY(-5px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}

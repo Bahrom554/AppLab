@@ -1,0 +1,24 @@
+.questions{
+    margin-top: 200px;
+}
+.qup{
+    width: 100%;
+    background-color: transparent !important;
+    text-decoration: none !important;
+    outline: none !important;
+    border: none !important;
+    &:hover{
+        outline: none !important;
+        border: none !important;
+    }
+}
+.questions-cards{
+    margin-top: 50px;
+}
+.card{
+    margin-top: 10px;
+    border-radius: 10px;
+    h4{
+        font-weight: 600;
+    }
+}

@@ -1,0 +1,15 @@
+.companies{
+    margin-top: 100px;
+}
+.carousel-item{
+transition: transform 2s ease, opacity 0.001s !important;
+align-items: center;
+padding: 20px;
+}
+.carousel{
+    display: flex;
+    align-items: center;
+}
+.sss{
+    z-index: -1;
+}
